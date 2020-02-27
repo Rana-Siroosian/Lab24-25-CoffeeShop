@@ -20,8 +20,15 @@
 		
 		<fieldset>
 			<legend><h2>You can shop here</h2></legend>
-			<a href="/shop"><button type="submit">Shop!</button></a>
+			<a href="/products"><button type="submit">Shop!</button></a>
 		
 		</fieldset>
+		
+		<fieldset>
+			<legend><h2>Admin</h2></legend>
+			<a href="/admin"><button type="submit">Login</button></a>
+		
+		</fieldset>
+		
 </body>
 </html>

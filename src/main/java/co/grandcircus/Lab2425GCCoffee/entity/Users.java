@@ -1,4 +1,4 @@
-package co.grandcircus.Lab2425GCCoffee.beans;
+package co.grandcircus.Lab2425GCCoffee.entity;
 
 public class Users {
 	

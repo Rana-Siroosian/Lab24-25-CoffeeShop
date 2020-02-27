@@ -1,7 +1,16 @@
-package co.grandcircus.Lab2425GCCoffee.beans;
+package co.grandcircus.Lab2425GCCoffee.entity;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
 public class Product {
 	
+	@Id @GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="id") // name of SQL column
 	private Long id;
 	private String name;
 	private Double price;
